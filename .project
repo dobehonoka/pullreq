@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
@@ -11,3 +12,16 @@
 	</natures>
 </projectDescription>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>pullreq</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>
+>>>>>>> bc1cff238e6ad33a02ed95ed7bdf1421e04c2f55
