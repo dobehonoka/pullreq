@@ -1,10 +1,7 @@
-﻿/* Name it "Hello.java" 
- * Compile it by running "javac Hello.java"
- * Run it by typing "java Hello"
- */
+package takahara;
 
-interface Human {
-	void run();
+public interface Human {
+	public static void run();
 }
 
 
