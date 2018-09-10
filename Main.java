@@ -3,10 +3,10 @@ package takahara;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO è‡ªå‹•ç”Ÿæˆã•ã‚ŒãŸãƒ¡ã‚½ãƒƒãƒ‰ãƒ»ã‚¹ã‚¿ãƒ–
+		// TODO ©“®¶¬‚³‚ê‚½ƒƒ\ƒbƒhEƒXƒ^ƒu
 
-		Yatagarasu yatagarasuA = new Yatagarasu("å…«å’«çƒA");
-		Yatagarasu yatagarasuB = new Yatagarasu("å…«å’«çƒB");
+		Yatagarasu yatagarasuA = new Yatagarasu("”ªš@‰GA");
+		Yatagarasu yatagarasuB = new Yatagarasu("”ªš@‰GB");
 		Zombie zombieA = new Zombie();
 
 

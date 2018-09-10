@@ -5,7 +5,7 @@ public abstract class Life {
 	private int hp;
 
 	public void dead() {
-		System.out.println("ã‚ãªãŸã¯æ­»ã«ã¾ã—ãŸã€‚");
+		System.out.println("‚ ‚È‚½‚Í€‚É‚Ü‚µ‚½B");
 	}
 
 	public int getHp() {

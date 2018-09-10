@@ -1,23 +1,24 @@
 package takahara;
 
 public class Yatagarasu extends Monster implements Bird {
-
-	public Yatagarasu() {
-		Life life = new Life();
-		life.setHp(2000);
+	
+	String name;
+	public Yatagarasu(String name) {
+		this.name = name;
+		super.setHp(2000);
 	}
 
 	public void run(){
-		System.out.println("å…«å’«çƒãŒèµ°ã£ã¦ã„ã¾ã™ã€‚");
+		System.out.println("”ªš@‰G‚ª‘–‚Á‚Ä‚¢‚Ü‚·B");
 	}
 
 	public void attack(Monster monster) {
-		System.out.println("å…«å’«çƒãŒå™›ã¿ã¤ã„ã¦ã„ã¾ã™ã€‚");
+		System.out.println("”ªš@‰G‚ªŠš‚İ‚Â‚¢‚Ä‚¢‚Ü‚·B");
 		monster.setHp(monster.getHp() - 1500);
 		if(monster.getHp() <= 0) {
-			life.dead();
+			super.dead();
 		}else {
-			system.out.println(this.name + "ã®æ®‹ã‚ŠHPã¯" + monster.getHp() + "ã§ã™ã€‚");
+			System.out.println(this.name + "‚Ìc‚èHP‚Í" + monster.getHp() + "‚Å‚·B");
 		}
 	}
 	
